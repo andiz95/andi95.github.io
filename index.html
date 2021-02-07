@@ -5,13 +5,12 @@
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
-  <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"> -->
   <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   <script src="js/jquery.min.js"></script>
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
   <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
-  <script src="js/bootstrap.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
   <link rel="stylesheet" href="main.css">
   <style>
     /* Remove the navbar's default margin-bottom and rounded borders */ 
@@ -96,64 +95,32 @@
   .text {font-size: 11px}
 }
   </style>
-
-
-  
 </head>
 <body>
 
-  
-
-<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-  <a  class="navbar-brand" ><b><c><i><f>Portfolio</f></i></c></b></a>
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar"
-      aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-     
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>
-        <span class="icon-bar"></span>                        
-      </button>
-      
+  <nav class="navbar navbar-expand-lg navbar-inverse">
+    <div class="container-fluid">
+      <div class="navbar-header">
+        <button style="background-color: black;" type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+          <span style="background-color: white;" class="icon-bar"></span>
+          <span style="background-color: white;" class="icon-bar"></span>
+          <span style="background-color: white;" class="icon-bar"></span>                        
+        </button>
+        <a class="navbar-brand" href="#">Portfolio</a>
+      </div>
+      <div class="collapse navbar-collapse" id="myNavbar">
+        <ul class="nav navbar-nav">
+          <li class="active"><a href="#">About</a></li>
+          <li><a href="CV.html">CV</a></li>        
+        </ul>
+        
+      </div>
     </div>
-    <div class="collapse navbar-collapse" id="myNavbar">
-    
-      <ul class="nav navbar-nav">
-        <li ><a href="index.html"><c><b><f>About</f></b></c></a></li>
-        <li><a href="CV.html"><c><b><f>CV</f></b></c></a></li>
-      </ul>
-      <ul class="nav navbar-nav navbar-right">
-        
-        
-        <li>
-          
-          <a href="https://www.instagram.com/andiz.d/">
-            <img src="image/instagram.png" alt="" width="40">
-          
-          </a>
-        
-        </li>
-        <!-- <li>
-          <a href="https://www.facebook.com/mikael.dimas.39">
-            <img src="image/facebook.png" alt="" width="40">
-          </a>
-        </li> -->
-        <li>
-          <a href="https://www.linkedin.com/in/andi-darmawan-0a529b155/">
-            <img src="image/linkedin.png" alt="" width="45">
-          </a>
-        </li>
-    
-      </ul>
-    </div>
-  
-  </div>
-</nav>
+  </nav>
 
 <div class="jumbotron">
   <div class="container text-center">
-    <div class="image-container"><img src="image/sarjana.jpg" ></div>
+    <img src="image/sarjana.jpg" style="border-radius: 70%;height: 200px;width: 200px;" >
     <h1>Andi Darmawan</h1>      
    <p>I am an fresh graduate student majoring in Informatics Engineering at Atma Jaya Yogyakarta University.
       I have my interest in Mobile Apps Development and Back End Development. I'm a hard-worker person about my works, tasks 
@@ -163,55 +130,36 @@
   
 <div class="container-fluid bg-3 text-center">    
   <h3>Some of my Work</h3><br>
-  <div class="row">
-    <!-- <div class="col-sm-3">
-      <p>Game-account marketplace</p>
-      <img src="image/Login.PNG" class="img-responsive" style="width:100%" alt="Image">
-    </div> -->
-    <!-- <div class="col-sm-3"> 
-      <p>Game-account marketplace</p>
-      <img src="image/MainMenuPNG.PNG" class="img-responsive" style="width:100%" alt="Image">
+  <div class="slideshow-container">
+  
+    <div class="mySlides fade">
+      <div  class="numbertext">1 / 4</div> </cen2>
+      <img  src="image/Login.PNG" style="width: 50%;"></cen2>
+      <div class="text"></div>
     </div>
-    <div class="col-sm-3"> 
-      <p>Game-account marketplace</p>
-      <img src="image/MainMenuPenjualNew.PNG" class="img-responsive" style="width:100%" alt="Image">
-    </div>
-    <div class="col-sm-3">
-      <p>Game-account marketplace</p>
-      <img src="image/DetailPembayaran2.PNG" class="img-responsive" style="width:100%" alt="Image">
-    </div> -->
     
-   
-  </div>
-</div><br>
-
-<div class="slideshow-container">
-
-  <div class="mySlides fade">
-    <div  class="numbertext">1 / 4</div> </cen2>
-    <img style="position: relative;left: 310px;" src="image/Login.PNG" style="width:50%"></cen2>
-    <div class="text"></div>
-  </div>
+    <div class="mySlides fade">
+      <div class="numbertext">2 / 4</div>
+      <img src="image/MainMenuPNG.PNG" style="width:50%">
+      <div class="text"></div>
+    </div>
+    
+    <div class="mySlides fade">
+      <div class="numbertext">3 / 4</div>
+      <img src="image/MainMenuPenjualNew.PNG" style="width:50%">
+      <div class="text"></div>
+    </div>
   
-  <div class="mySlides fade">
-    <div class="numbertext">2 / 4</div>
-    <img style="position: relative;left: 310px;" src="image/MainMenuPNG.PNG" style="width:50%">
-    <div class="text"></div>
-  </div>
-  
-  <div class="mySlides fade">
-    <div class="numbertext">3 / 4</div>
-    <img style="position: relative;left: 310px;" src="image/MainMenuPenjualNew.PNG" style="width:50%">
-    <div class="text"></div>
+    <div class="mySlides fade">
+      <div class="numbertext">4 / 4</div>
+      <img src="image/KeranjangBelanja.PNG" style="width:50%">
+      <div class="text"></div>
+    </div>
+    
+    </div>
+
   </div>
 
-  <div class="mySlides fade">
-    <div class="numbertext">4 / 4</div>
-    <img style="position: relative;left: 310px;" src="image/KeranjangBelanja.PNG" style="width:50%">
-    <div class="text"></div>
-  </div>
-  
-  </div>
   <br>
   
   <div class="container text-center">
@@ -225,9 +173,14 @@
     <span class="dot"></span> 
     <span class="dot"></span> 
   </div>
+</div> <br>
   
 
 <footer class="container-fluid text-center">
+
+  
+    <p><a href="https://www.instagram.com/andiz.d/"><img src="image/instagram.png" alt="" width="45"></a>
+    <a href="https://www.linkedin.com/in/andi-darmawan-0a529b155/"><img src="image/linkedin.png" alt="" width="45"></a></p>
   <i class="fa fa-android" style="font-size:24px"></i>
 
   <p><w><div><span class="glyphicon glyphicon-thumbs-up" id="my-glyphicon"></span><w>Informatic Engineering<i class="glyphicon glyphicon-thumbs-up"></i></w></w></p>

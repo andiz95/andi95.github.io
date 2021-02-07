@@ -24,11 +24,15 @@
     position: relative;right: 555px;
   }
 
-  cen2{
+  .cen2{
     margin-right: auto;
     margin-left: auto;
   }
 
+  .marright{
+    margin-right: 0px;
+    margin-left: auto;
+  }
 
   .image-container {
     width: 200px;
@@ -58,8 +62,8 @@
   }
 
   .image-container3 {
-    width: 20px;
-    height: 20px;
+    width: 10px;
+    height: 10px;
     overflow: hidden;
     position: relative;left: 10px;
     float:"left";
@@ -67,13 +71,15 @@
   }
 
   
+
+
   fo{
-    font-size: x-large;
+    font-size: large;
     /* color: rgb(163, 20, 20); */
   }
 
   fi{
-    font-size: x-large;
+    font-size:medium;
     color: rgb(73, 72, 72);
   }
   fa{
@@ -107,7 +113,7 @@
  
  fon{
    font-style: bold;
-   font-size: medium;
+   font-size: small;
  }
 
 
